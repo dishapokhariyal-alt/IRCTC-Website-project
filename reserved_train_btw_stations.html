@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserved Train Between Stations</title>
+</head>
+<body>
+     <header>
+
+        <nav>
+            <a href="index-irctc.html" target="_self">Home</a>
+            <a href="indian_railway_enquiry.html" target="_self">Indian Railways Enquiry</a>
+            <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
+            <a href="reserved_train_btw_stations.html" target="_self">Reserved Train Between Stations</a>
+            <a href="seat_availabilty.html" target="_self">Seat Availability</a>
+            <a href="reserved_train_schedule.html" target="_self">Reserved Train Schedule</a>
+            <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="Indian Railway Logo" class="logos">
+        <h1>INDIAN RAILWAYS RESERVED TRAIN BETWEEN STATIONS</h1>
+        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo" class="logos">
+        
+        <div class="rtbs_details">
+            <h2>Enter the following details:</h2>
+
+            <form class="rtbs-train-details">
+
+                <label for="rtbs-source-station">Enter Source Station:
+                    <input required type="text" name="rtbs-source-station" id="rtbs-source-station" placeholder="eg: NDLS ">
+                </label>
+
+                <label for="rtbs-destination-station">Enter Destination Station:
+                    <input required type="text" name="rtbs-destination-station" id="rtbs-destination-station" placeholder="eg: MMCT ">
+                </label>
+
+                <label for="rtbs-journey-date">Enter Journey Date:
+                    <input required type="date" name="rtbs-journey-date" id="rtbs-journey-date" placeholder="2026-07-23">
+                </label>
+
+               <label for="rtbs-train-class" >Enter Class:
+                    <select id="rtbs-train-class" name="rtbs-train-class">
+                        <option value="all-classes">All Classes</option>
+                        <option value="sleeper">Sleeper</option>
+                        <option value="3ac">3 AC</option>
+                        <option value="2ac">2 AC</option>
+                        <option value="1ac">1 AC</option>
+                    </select>
+                </label>
+
+                <label for="rtbs-train-quota" >Enter Quota:
+                    <select id="rtbs-train-quota" name="rtbs-train-quota">
+                        <option value="general">General</option>
+                        <option value="ladies">Ladies</option>
+                        <option value="sr-citizen">Lower Berth/Sr.Citizen</option>
+                        <option value="duty-pass">Duty Pass</option>
+                        <option value="tatkal">Tatakl</option>
+                        <option value="prem-tatkal">Premium Tatakl</option>
+                    </select>
+                </label>
+
+                <button type="submit" id="search_trains" name="search_trains">Search Trains</button>
+                <button type="reset" id="clear" name="clear">Clear</button>
+           </form>
+        </main>
+                
+
+                
+
+                
+</body>
+</html>

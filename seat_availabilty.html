@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Availability</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <a href="index-irctc.html" target="_self">Home</a>
+            <a href="indian_railway_enquiry.html" target="_self">Indian Railways Enquiry</a>
+            <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
+            <a href="reserved_train_btw_stations.html" target="_self">Reserved Train Between Stations</a>
+            <a href="seat_availabilty.html" target="_self">Seat Availability</a>
+            <a href="reserved_train_schedule.html" target="_self">Reserved Train Schedule</a>
+            <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="Indian Railway Logo" class="logos">
+        <h1>INDIAN RAILWAYS SEAT AVAILABILITY ENQUIRY </h1>
+        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo" class="logos">
+        
+        <div class="seat_availability_details">
+            <h2>Enter the following details:</h2>
+
+            <form class="seat-avail-details">
+
+                <label for="sa-train-number">Enter Train Number:
+                    <input required type="text" name="sa-train-number" id="sa-train-number" placeholder="eg:12951">
+                </label>
+
+                <label for="sa-source-station">Enter Source Station:
+                    <input required type="text" name="sa-source-station" id="sa-source-station" placeholder="eg: NDLS ">
+                </label>
+
+                <label for="sa-destination-station">Enter Destination Station:
+                    <input required type="text" name="sa-destination-station" id="sa-destination-station" placeholder="eg: MMCT ">
+                </label>
+
+                <label for="sa-journey-date">Enter Journey Date:
+                    <input required type="date" name="sa-journey-date" id="sa-journey-date" placeholder="2026-07-23">
+                </label>
+
+               <label for="sa-train-class" >Enter Class:
+                    <select id="sa-train-class" name="sa-train-class">
+                        <option value="all-classes">All Classes</option>
+                        <option value="sleeper">Sleeper</option>
+                        <option value="3ac">3 AC</option>
+                        <option value="2ac">2 AC</option>
+                        <option value="1ac">1 AC</option>
+                    </select>
+                </label>
+
+                <label for="sa-train-quota" >Enter Quota:
+                    <select id="sa-train-quota" name="sa-train-quota">
+                        <option value="general">General</option>
+                        <option value="ladies">Ladies</option>
+                        <option value="sr-citizen">Lower Berth/Sr.Citizen</option>
+                        <option value="duty-pass">Duty Pass</option>
+                        <option value="tatkal">Tatakl</option>
+                        <option value="prem-tatkal">Premium Tatakl</option>
+                    </select>
+                </label>
+
+                <button type="submit" id="check_seat_avail" name="check_seat_avail">Check Availability</button>
+                <button type="reset" id="reset_seat" name="reset_seat">Reset</button>
+           </form>
+        </main>
+</body>
+</html>
