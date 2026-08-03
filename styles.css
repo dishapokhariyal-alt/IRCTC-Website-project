@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #0056b3;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0056b3;
+}
+
+/* Main Section */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logos */
+.logos {
+    width: 100px;
+    height: auto;
+    margin: 15px;
+}
+
+/* Heading */
+h1 {
+    color: #003366;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Service Boxes */
+.indian_railway_enquiry,
+.pnr_enquiry,
+.reserved_train_btw_stations,
+.seat_availability,
+.reserved_train_schedule,
+.fair_enquiry {
+    background: white;
+    width: 350px;
+    margin: 15px auto;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.indian_railway_enquiry:hover,
+.pnr_enquiry:hover,
+.reserved_train_btw_stations:hover,
+.seat_availability:hover,
+.reserved_train_schedule:hover,
+.fair_enquiry:hover {
+    transform: translateY(-5px);
+    background-color: #0056b3;
+}
+
+.indian_railway_enquiry a,
+.pnr_enquiry a,
+.reserved_train_btw_stations a,
+.seat_availability a,
+.reserved_train_schedule a,
+.fair_enquiry a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.indian_railway_enquiry:hover a,
+.pnr_enquiry:hover a,
+.reserved_train_btw_stations:hover a,
+.seat_availability:hover a,
+.reserved_train_schedule:hover a,
+.fair_enquiry:hover a {
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .indian_railway_enquiry,
+    .pnr_enquiry,
+    .reserved_train_btw_stations,
+    .seat_availability,
+    .reserved_train_schedule,
+    .fair_enquiry {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .logos {
+        width: 80px;
+    }
+}
