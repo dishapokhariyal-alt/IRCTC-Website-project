@@ -1,0 +1,151 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* Navigation */
+header{
+    background:#0056b3;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding:8px 14px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#0056b3;
+}
+
+/* Main */
+main{
+    width:90%;
+    max-width:750px;
+    margin:40px auto;
+    text-align:center;
+}
+
+/* Logos */
+.logos{
+    width:90px;
+    margin:10px;
+}
+
+/* Headings */
+h1{
+    color:#003366;
+    margin:20px 0;
+}
+
+h2{
+    color:#0056b3;
+    margin-bottom:20px;
+}
+
+/* Card */
+.fa-details{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Form */
+.fa-train-details{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.fa-train-details label{
+    text-align:left;
+    font-weight:bold;
+}
+
+/* Inputs */
+input,
+select{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:1px solid #bbb;
+    border-radius:6px;
+    font-size:16px;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#0056b3;
+}
+
+/* Buttons */
+button{
+    width:100%;
+    margin-top:15px;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#fa-check-avail{
+    background:#0056b3;
+}
+
+#fa-check-avail:hover{
+    background:#003d80;
+}
+
+#fa-reset{
+    background:#d9534f;
+}
+
+#fa-reset:hover{
+    background:#b52b27;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .fa-details{
+        padding:20px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    .logos{
+        width:70px;
+    }
+}
