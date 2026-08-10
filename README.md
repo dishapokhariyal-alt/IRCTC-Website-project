@@ -44,7 +44,7 @@ You can access the different pages of the project below:
 
 | Page | Description |
 |------|-------------|
-| 🏠 [Home Page](index-irct.html) | Main railway enquiry homepage |
+| 🏠 [Home Page](index-irctc.html) | Main railway enquiry homepage |
 | 🎫 [PNR Enquiry](pnr_enquiry.html) | Check passenger PNR information |
 | 🚆 [Train Between Stations](reserved_train_btw_stations.html) | Search trains between two stations |
 | 💺 [Seat Availability](result_seat_availability.html) | Check available seats |
