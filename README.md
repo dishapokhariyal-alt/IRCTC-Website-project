@@ -1,46 +1,107 @@
-# IRCTC -project
-Railway website 
-#Railway Passenger Reservation Enquiry System
+# 🚆 IRCTC Website Project
 
-## About the Project
-This is a front-end web project built using HTML and CSS. It is designed to simulate a railway passenger reservation enquiry system with multiple pages.
+### Railway Passenger Reservation Enquiry System
 
-## Features
-- Home page
-- PNR Enquiry
-- Train Between Stations
-- Seat Availability
-- Fare Enquiry
-- Reserved Train Schedule
-- Responsive and user-friendly interface
+A front-end web project designed to simulate an Indian Railway passenger reservation and enquiry system. The project provides multiple enquiry pages for passengers to check train information, PNR details, seat availability, fares, and train schedules.
 
-## Technologies Used
-- HTML5
-- CSS3
+---
 
-## Project Structure
-```
-Railway-Reservation/
-│── index.html
-│── pnr.html
-│── train-between-stations.html
-│── seat-availability.html
-│── fare-enquiry.html
-│── train-schedule.html
-│── style.css
-└── images/
-```
+## 📌 About the Project
 
-## How to Run
-1. Download or clone the repository.
-2. Open `index.html` in your browser.
-3. Navigate through the pages using the navigation menu.
+The **IRCTC Website Project** is a multi-page railway enquiry website developed using **HTML, CSS, and JavaScript**.
 
-## Future Improvements
-- Add JavaScript for form validation.
-- Connect to a backend database.
-- Implement real-time train and PNR information.
-- Add CAPTCHA for enquiry forms.
+The project aims to recreate the basic functionality and interface of a railway passenger reservation enquiry portal. Users can navigate between different sections of the website to access railway-related information.
 
-## Author
-Disha Pokhariyal
+This project was developed as a collaborative web development project to understand:
+
+- Website structure using HTML
+- Styling and responsive layouts using CSS
+- JavaScript-based interactivity and validation
+- Multi-page website navigation
+- Git and GitHub collaboration
+- Branching and version control
+
+---
+
+## ✨ Features
+
+- 🏠 Home Page
+- 🎫 PNR Enquiry
+- 🚆 Train Between Stations
+- 💺 Seat Availability
+- 💰 Fare Enquiry
+- 📅 Reserved Train Schedule
+- 📱 Responsive and user-friendly interface
+- ✅ Form validation
+- 🔗 Navigation between multiple pages
+- ⚡ JavaScript-based interactions
+
+---
+
+## 🌐 Website Pages
+
+You can access the different pages of the project below:
+
+| Page | Description |
+|------|-------------|
+| 🏠 [Home Page](index-irct.html) | Main railway enquiry homepage |
+| 🎫 [PNR Enquiry](pnr_enquiry.html) | Check passenger PNR information |
+| 🚆 [Train Between Stations](reserved_train_btw_stations.html) | Search trains between two stations |
+| 💺 [Seat Availability](result_seat_availability.html) | Check available seats |
+| 💰 [Fare Enquiry](fare_enquiry.html) | Enquire about train fares |
+| 📅 [Reserved Train Schedule](reserved_train_schedule.html) | View reserved train schedules |
+| 🚆 [Indian Railway Enquiry](indian_railway_enquiry.html) | Railway enquiry section |
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- GitHub Pages
+
+---
+
+## 📁 Project Structure
+
+```text
+IRCTC-Website-project/
+│
+├── .gitattributes
+├── LICENSE
+├── README.md
+│
+├── index-irct.html
+├── home.js
+├── script.js
+│
+├── indian_railway_enquiry.html
+│
+├── pnr_enquiry.html
+├── pnr_styles.css
+├── pnr.js
+│
+├── fare_enquiry.html
+├── fare_enquiry_styles.css
+│
+├── reserved_train_btw_stations.html
+├── reserved_train_btw_stations_styles.css
+├── result_rtbs.html
+│
+├── reserved_train_schedule.html
+├── reserved_train_schedule_styles.css
+├── result_rts.html
+│
+├── result_seat_availability.html
+├── seat_availability.js
+│
+└── README.md
