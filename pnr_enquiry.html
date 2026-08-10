@@ -8,47 +8,73 @@
 </head>
 <body>
     <header>
-
-        <nav>
-            <a href="index-irctc.html" target="_self">Home</a>
-            <a href="indian_railway_enquiry.html" target="_self">Indian Railways Enquiry</a>
-            <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
-            <a href="reserved_train_btw_stations.html" target="_self">Reserved Train Between Stations</a>
-            <a href="seat_availabilty.html" target="_self">Seat Availability</a>
-            <a href="reserved_train_schedule.html" target="_self">Reserved Train Schedule</a>
-            <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
-            
-        </nav>
+      <nav>
+        <a href="index-irctc.html" target="_self">Home</a>
+        <a href="indian_railway_enquiry.html" target="_self"
+          >Indian Railways Enquiry</a
+        >
+        <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
+        <a href="reserved_train_btw_stations.html" target="_self"
+          >Reserved Train Between Stations</a
+        >
+        <a href="seat_availabilty.html" target="_self">Seat Availability</a>
+        <a href="reserved_train_schedule.html" target="_self"
+          >Reserved Train Schedule</a
+        >
+        <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
+      </nav>
     </header>
 
     <main>
-        <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="Indian Railway Logo" class="logos">
-        <h1>INDIAN RAILWAYS PNR ENQUIRY</h1>
-        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo" class="logos">
-        
-        <article class="pnr_details">
-            <h2>Check your PNR status here: </h2>
+      <img
+        src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png"
+        alt="Indian Railway Logo"
+        class="logos"
+      />
+      <h1>INDIAN RAILWAYS PNR ENQUIRY</h1>
+      <img
+        src="https://www.irctc.co.in/nget/assets/images/logo.png"
+        alt="IRCTC Logo"
+        class="logos"
+      />
 
-            <form class="user_pnr_details">
+      <article class="pnr_details">
+        <h2>Check your PNR status here:</h2>
 
-                <label for="pnr-number">Enter PNR Number:
-                    <input required type="text" name="pnr-number" id="pnr-number" placeholder="eg:K9XR2P">
-                </label>
+        <form class="user_pnr_details">
+          <label for="pnr-number"
+            >Enter PNR Number:
+            <input
+              required
+              type="text"
+              name="pnr-number"
+              id="pnr-number"
+              placeholder="eg:K9XR2P"
+            />
+          </label>
 
-                <button type="submit" id="check_status" name="check_status">Check Status</button>
-                <button type="reset">Reset</button>
+          <button type="submit" id="check_status" name="check_status">
+            Check Status
+          </button>
+          <button type="reset">Reset</button>
 
-                <label for="captcha">Enter CAPTCHA:</label><br>
+          <label for="captcha">Enter CAPTCHA:</label><br />
 
-                <div class="captcha-box">A7K9P</div>
+          <div class="captcha-box" id="captchaBox"></div>
 
-                <input type="text" id="captcha" name="captcha" placeholder="Enter the code">
-                <button type="submit" id="check_captcha" name="check_captcha">Check Captcha</button>
-
-            </form>
-           
-        </article>
+          <input
+            type="text"
+            id="captcha"
+            name="captcha"
+            placeholder="Enter the code"
+          />
+          <button type="submit" id="check_captcha" name="check_captcha">
+            Check Captcha
+          </button>
+        </form>
+      </article>
     </main>
-    
-</body>
+    <script src="pnr.js"></script>
+  </body>
 </html>
+
