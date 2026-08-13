@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #0056b3;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #0056b3;
+}
+main{
+    width:90%;
+    max-width:750px;
+    margin:40px auto;
+    text-align:center;
+}
+
+/* Logos */
+.logos{
+    width:100px;
+    margin:10px;
+}
+
+/* Headings */
+h1{
+    color:#003366;
+    margin:20px 0;
+}
+
+h2{
+    color:#0056b3;
+    margin-bottom:50px;
+}
+.rts-table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    
+    
+    min-width: 1200px;
+}
+
+/* Main heading */
+.rts-table thead tr:first-child th {
+    background-color: #4b3f72;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 20px;
+    letter-spacing: 0.3px;
+}
+
+/* Column headings */
+.rts-table thead tr:nth-child(2) th {
+    background-color: #f0edf7;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 10px;
+    border: 1px solid #d8d3e5;
+}
+
+/* Table data */
+.rts-table td {
+    padding: 14px 12px;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+/* Left-align long text */
+.rts-table td:nth-child(3),
+.rts-table td:nth-child(4),
+.rts-table td:nth-child(5),
+.rts-table td:nth-child(8) {
+    text-align: left;
+}
+
+/* Highlight train name */
+.rts-table td:first-child {
+    font-weight: 600;
+    color: #4b3f72;
+}
+
+/* Highlight train number */
+.rts-table td:nth-child(2) {
+    font-weight: bold;
+}
+
+/* Hover effect */
+.rts-table tbody tr:hover {
+    background-color: #f7f5fb;
+}
+
+
+.rts-table td:nth-child(9),
+.rts-table td:nth-child(10),
+.rts-table td:nth-child(11) {
+    font-weight: 600;
+}
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 30px 0;
+    padding-bottom: 10px;
+}
