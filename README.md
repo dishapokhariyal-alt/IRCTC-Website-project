@@ -85,23 +85,36 @@ IRCTC-Website-project/
 ├── script.js
 │
 ├── indian_railway_enquiry.html
+├── ire_styles.css
+├── result_ire.html
+├── result_ire_styles.css
 │
 ├── pnr_enquiry.html
 ├── pnr_styles.css
 ├── pnr.js
+├── result_pnr_enquiry.html
+├── result_pnr_styles.css
 │
 ├── fare_enquiry.html
 ├── fare_enquiry_styles.css
+├── script.js
+├── result_fare_enquiry.html
+├── result_fare_styles.css
 │
 ├── reserved_train_btw_stations.html
 ├── reserved_train_btw_stations_styles.css
 ├── result_rtbs.html
+├── result_rtbs_styles.css
 │
 ├── reserved_train_schedule.html
 ├── reserved_train_schedule_styles.css
 ├── result_rts.html
+├── result_rts_styles.css
 │
-├── result_seat_availability.html
+├── seat_availabilty.html
 ├── seat_availability.js
+├── seat_availability_styles.css
+├── result_seat_availability.html
+├── result_seat_styles.css
 │
 └── README.md
