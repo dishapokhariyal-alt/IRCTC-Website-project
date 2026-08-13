@@ -4,120 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Railway Enquiry</title>
+    <link rel="stylesheet" href="ire_styles.css">
 </head>
 <body>
     <header>
-      <nav>
-        <a href="index-irctc.html" target="_self">Home</a>
-        <a href="indian_railway_enquiry.html" target="_self"
-          >Indian Railways Enquiry</a
-        >
-        <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
-        <a href="reserved_train_btw_stations.html" target="_self"
-          >Reserved Train Between Stations</a
-        >
-        <a href="seat_availabilty.html" target="_self">Seat Availability</a>
-        <a href="reserved_train_schedule.html" target="_self"
-          >Reserved Train Schedule</a
-        >
-        <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
-      </nav>
+
+        <nav>
+            <a href="index-irctc.html" target="_self">Home</a>
+            <a href="indian_railway_enquiry.html" target="_self">Indian Railways Enquiry</a>
+            <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
+            <a href="reserved_train_btw_stations.html" target="_self">Reserved Train Between Stations</a>
+            <a href="seat_availabilty.html" target="_self">Seat Availability</a>
+            <a href="reserved_train_schedule.html" target="_self">Reserved Train Schedule</a>
+            <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
+            
+        </nav>
     </header>
 
     <main>
-      <img
-        src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png"
-        alt="Indian Railway Logo"
-        class="logos"
-      />
-      <h1>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY</h1>
-      <img
-        src="https://www.irctc.co.in/nget/assets/images/logo.png"
-        alt="IRCTC Logo"
-        class="logos"
-      />
-      <p>dignitized and cashless economy.Eradicate black money</p>
 
-      <div class="s-and-i">
-        <button id="services" type="submit">Services</button>
-        <button id="information" type="submit">Information</button>
-      </div>
+        <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="Indian Railway Logo" class="logos">
+        <h1>APNA RAILWAYS PASSENGER RESERVATION ENQUIRY</h1>
+        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo" class="logos">
+        
 
-      <div class="details">
-        <h2>Accomodation Availabilty Enquiry on Trains till Departure</h2>
+        
 
-        <form class="train-details">
-          <label for="train-number"
-            >Enter Train Number:
-            <input
-              required
-              type="text"
-              name="train-number"
-              id="train-number"
-              placeholder="eg:12951"
-            />
-          </label>
+        <div class="details">
+            <h2>Accomodation Availabilty Enquiry on Trains till Departure</h2>
 
-          <label for="journey-date"
-            >Enter Journey Date:
-            <input
-              required
-              type="date"
-              name="journey-date"
-              id="journey-date"
-              placeholder="2026-07-23"
-            />
-          </label>
+            <form action="result_ire.html" class="train-details">
 
-          <label for="source-station"
-            >Enter Source Station:
-            <input
-              required
-              type="text"
-              name="source-station"
-              id="source-station"
-              placeholder="eg: NDLS "
-            />
-          </label>
+                <label for="train-number">Enter Train Number:
+                    <input required type="text" name="train-number" id="train-number" placeholder="eg:12951">
+                </label>
 
-          <label for="destination-station"
-            >Enter Destination Station:
-            <input
-              required
-              type="text"
-              name="destination-station"
-              id="destination-station"
-              placeholder="eg: MMCT "
-            />
-          </label>
+                <label for="journey-date">Enter Journey Date:
+                    <input required type="date" name="journey-date" id="journey-date" placeholder="2026-07-23">
+                </label>
 
-          <label for="train-class"
-            >Enter Class:
-            <select id="train-class" name="train-class">
-              <option value="all-classes">All Classes</option>
-              <option value="sleeper">Sleeper</option>
-              <option value="3ac">3 AC</option>
-              <option value="2ac">2 AC</option>
-              <option value="1ac">1 AC</option>
-            </select>
-          </label>
+                <label for="source-station">Enter Source Station:
+                    <input required type="text" name="source-station" id="source-station" placeholder="eg: NDLS ">
+                </label>
 
-          <label for="train-quota"
-            >Enter Quota:
-            <select id="train-quota" name="train-quota">
-              <option value="general">General</option>
-              <option value="ladies">Ladies</option>
-              <option value="sr-citizen">Lower Berth/Sr.Citizen</option>
-              <option value="duty-pass">Duty Pass</option>
-              <option value="tatkal">Tatakl</option>
-              <option value="prem-tatkal">Premium Tatakl</option>
-            </select>
-          </label>
-        </form>
-        <button type="submit" id="check-avail" class="check-avail">
-          Get Availability
-        </button>
-      </div>
+                <label for="destination-station">Enter Destination Station:
+                    <input required type="text" name="destination-station" id="destination-station" placeholder="eg: MMCT ">
+                </label>
+
+                <label for="train-class" >Enter Class:
+                    <select id="train-class" name="train-class">
+                        <option value="all-classes">All Classes</option>
+                        <option value="sleeper">Sleeper</option>
+                        <option value="3ac">3 AC</option>
+                        <option value="2ac">2 AC</option>
+                        <option value="1ac">1 AC</option>
+                    </select>
+                </label>
+
+                <label for="train-quota" >Enter Quota:
+                    <select id="train-quota" name="train-quota">
+                        <option value="general">General</option>
+                        <option value="ladies">Ladies</option>
+                        <option value="sr-citizen">Lower Berth/Sr.Citizen</option>
+                        <option value="duty-pass">Duty Pass</option>
+                        <option value="tatkal">Tatakl</option>
+                        <option value="prem-tatkal">Premium Tatakl</option>
+                    </select>
+                </label>
+            </form>
+            <button type="submit" id="check-avail" class="check-avail">Get Availability</button>
+        </div>
+
+        <div class="s-and-i">
+            <button id="services" type="submit">Services</button>
+            <button id="information" type="submit">Information</button>
+        </div>
+        
     </main>
-  </body>
+    
+</body>
 </html>
