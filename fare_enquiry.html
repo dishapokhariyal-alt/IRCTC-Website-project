@@ -30,26 +30,26 @@
         <div class="fa-details">
             <h2>Check the fare details here:</h2>
 
-            <form class="fa-train-details">
+            <form action="result_fare_enquiry.html" class="fa-train-details">
 
                 <label for="fa-train-number">Enter Train Number:
-                    <input required type="text" name="fa-train-number" id="fa-train-number" placeholder="eg:12951" required>
+                    <input required type="text" name="fa-train-number" id="fa-train-number" placeholder="eg:12951">
                 </label>
 
                 <label for="fa-journey-date">Enter Journey Date:
-                    <input required type="date" name="fa-journey-date" id="fa-journey-date" placeholder="2026-07-23" required>
+                    <input required type="date" name="fa-journey-date" id="fa-journey-date" placeholder="2026-07-23">
                 </label>
 
                 <label for="fa-source-station">Enter Source Station:
-                    <input required type="text" name="fa-source-station" id="fa-source-station" placeholder="eg: NDLS " required>
+                    <input required type="text" name="fa-source-station" id="fa-source-station" placeholder="eg: NDLS ">
                 </label>
 
                 <label for="fa-destination-station">Enter Destination Station:
-                    <input required type="text" name="fa-destination-station" id="fa-destination-station" placeholder="eg: MMCT " required>
+                    <input required type="text" name="fa-destination-station" id="fa-destination-station" placeholder="eg: MMCT ">
                 </label>
 
                 <label for="fa-train-class" >Enter Class:
-                    <select id="fa-train-class" name="fa-train-class" >
+                    <select id="fa-train-class" name="fa-train-class">
                         <option value="all-classes">All Classes</option>
                         <option value="sleeper">Sleeper</option>
                         <option value="3ac">3 AC</option>
@@ -70,16 +70,17 @@
                 </label>
 
                 <label for="fa-passenger-type" >Passenger Type:
-                    <select id="fa-passenger-type" name="fa-passenger-type" required>
+                    <select id="fa-passenger-type" name="fa-passenger-type">
                         <option value="adult">Adult</option>
                         <option value="child">Child</option>
                     </select>
                 </label>
             </form>
-            <button type="submit" id="fa-check-avail" class="fa-check-avail" disabled>Check Fare</button>
+            <button type="submit" id="fa-check-avail" class="fa-check-avail">Check Fare</button>
             <button type="reset" id="fa-reset" name="fa-reset">Reset</button>
         </div>
     </main>
     <script src="script.js"></script>    
+    
 </body>
 </html>
