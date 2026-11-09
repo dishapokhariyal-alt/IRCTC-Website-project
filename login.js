@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const message = document.getElementById("login-message");
   const button = document.getElementById("login-button");
 
-  const API_BASE = "http://localhost:3000";
+
 
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
