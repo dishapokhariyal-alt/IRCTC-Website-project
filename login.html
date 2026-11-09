@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Log In | Indian Railways</title>
+
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="nav-links">
+          <a href="index-irctc.html">Home</a>
+          <a href="indian_railway_enquiry.html">Indian Railways Enquiry</a>
+          <a href="pnr_enquiry.html">PNR Enquiry</a>
+          <a href="reserved_train_btw_stations.html"
+            >Reserved Train Between Stations</a
+          >
+          <a href="seat_availabilty.html">Seat Availability</a>
+          <a href="reserved_train_schedule.html">Reserved Train Schedule</a>
+          <a href="fare_enquiry.html">Fare Enquiry</a>
+        </div>
+
+        <div class="auth-nav">
+          <a href="signup.html">Sign Up</a>
+          <a href="login.html">Log In</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Login Section -->
+    <main>
+      <div class="auth-card">
+        <h1>Welcome Back!</h1>
+
+        <p class="subtitle">Log in to access your railway account.</p>
+
+        <!-- Login Form -->
+        <form id="login-form">
+          <label for="email">Email Address</label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your registered email"
+            required
+          />
+
+          <label for="password">Password</label>
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+
+          <button type="submit" id="login-button">Log In</button>
+
+          <p id="login-message"></p>
+        </form>
+
+        <p class="switch-auth">
+          Don't have an account?
+          <a href="signup.html">Sign Up</a>
+        </p>
+      </div>
+    </main>
+
+    <script src="login.js"></script>
+    <script src="auth-nav.js"></script>
+  </body>
+</html>
