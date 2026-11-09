@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const box = document.getElementById("pnr-results");
 
   // Your backend address
-  const API_BASE = "http://localhost:3000";
+
 
   // Read PNR number from the URL
   const params = new URLSearchParams(window.location.search);
