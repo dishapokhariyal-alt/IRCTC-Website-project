@@ -1,0 +1,1 @@
+loadAvailability("seat-results");

@@ -1,19 +1,14 @@
-const train = document.getElementById("sa-train-number");
-const source = document.getElementById("sa-source-station");
-const destination = document.getElementById("sa-destination-station");
-const date = document.getElementById("sa-journey-date");
-const button = document.getElementById("check_seat_avail");
-const reset = document.getElementById("reset_seat");
+// Seat Availability form -> result page
+const seatForm = document.querySelector(".seat-avail-details");
 
-function validateForm() {
-  if (
-    train.value !== "" &&
-    source.value !== "" &&
-    destination.value !== "" &&
-    date.value !== ""
-  ) {
-    button.disabled = false;
-  } else {
-    button.disabled = true;
-  }
-}
+seatForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  goTo("result_seat_availability.html", {
+    train: getVal("sa-train-number"),
+    from: getCode("sa-source-station"),
+    to: getCode("sa-destination-station"),
+    date: getVal("sa-journey-date"),
+    class: getVal("sa-train-class"),
+    quota: getVal("sa-train-quota"),
+  });
+});

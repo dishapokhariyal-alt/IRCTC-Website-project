@@ -1,99 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Results PNR Enquiry</title>
-    <link rel="stylesheet" href="result_pnr_styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="result_pnr_styles.css" />
+  </head>
+  <body>
     <header>
-
-        <nav>
-            <a href="index-irctc.html" target="_self">Home</a>
-            <a href="indian_railway_enquiry.html" target="_self">Indian Railways Enquiry</a>
-            <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
-            <a href="reserved_train_btw_stations.html" target="_self">Reserved Train Between Stations</a>
-            <a href="seat_availabilty.html" target="_self">Seat Availability</a>
-            <a href="reserved_train_schedule.html" target="_self">Reserved Train Schedule</a>
-            <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
-            
-        </nav>
+      <nav>
+        <a href="index-irctc.html" target="_self">Home</a>
+        <a href="indian_railway_enquiry.html" target="_self"
+          >Indian Railways Enquiry</a
+        >
+        <a href="pnr_enquiry.html" target="_self">PNR Enquiry</a>
+        <a href="reserved_train_btw_stations.html" target="_self"
+          >Reserved Train Between Stations</a
+        >
+        <a href="seat_availabilty.html" target="_self">Seat Availability</a>
+        <a href="reserved_train_schedule.html" target="_self"
+          >Reserved Train Schedule</a
+        >
+        <a href="fare_enquiry.html" target="_self">Fare Enquiry</a>
+      </nav>
     </header>
 
     <main>
-        <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="Indian Railway Logo" class="logos">
-        <h1>INDIAN RAILWAYS PNR ENQUIRY</h1>
-        <img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="IRCTC Logo" class="logos">
-        <h2>Your PNR status is here:</h2>
+      <div id="pnr-results"></div>
+      <img
+        src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png"
+        alt="Indian Railway Logo"
+        class="logos"
+      />
+      <h1>INDIAN RAILWAYS PNR ENQUIRY</h1>
+      <img
+        src="https://www.irctc.co.in/nget/assets/images/logo.png"
+        alt="IRCTC Logo"
+        class="logos"
+      />
+      <h2>Your PNR status is here:</h2>
 
-        <table class="pnr-table">
-            <thead>Passenger PNR Status:</thead>
-            <tr>
-                <th>Passenger Name:</th>
-                <td>Ramesh Kumar</td>
-            </tr>
-
-            <tr>
-                <th>Train Number:</th>
-                <td>12952</td>
-            </tr>
-
-            <tr>
-                <th>Train Name:</th>
-                <td>Mumbai Central Tejas Rajdhani</td>
-            </tr>
-
-            <tr>
-                <th>Journey Date:</th>
-                <td>14/08/2026</td>
-            </tr>
-
-            <tr>
-                <th>Boarding Station:</th>
-                <td>New Delhi (NDLS)</td>
-            </tr>
-
-            <tr>
-                <th>Destination Station:</th>
-                <td>Mumbai Central (MMCT)</td>
-            </tr>
-
-            <tr>
-                <th>Coach:</th>
-                <td>B5</td>
-            </tr>
-
-            <tr>
-                <th>Berth Number:</th>
-                <td>36</td>
-            </tr>
-
-            <tr>
-                <th>Booking Status:</th>
-                <td>Confirmed</td>
-            </tr>
-
-            <tr>
-                <th>Current Status:</th>
-                <td>Reaching KotaJN</td>
-            </tr>
-
-            <tr>
-                <th>Chart Prepared</th>
-                <td>Yes</td>
-            </tr>
-            <!--<tr>
-                <th></th>
-                <td></td>
-            </tr>
-
-            <tr>
-                <th></th>
-                <td></td>
-            </tr>-->
-            
-        </table>
+      <div id="pnr-results"></div>
     </main>
-</body>
+    <script src="result_pnr.js"></script>
+  </body>
 </html>

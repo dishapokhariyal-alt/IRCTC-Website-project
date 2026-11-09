@@ -31,3 +31,16 @@ resetButton.addEventListener("click", function () {
   // Disable Check Fare again
   button.disabled = true;
 });
+
+// NEW: send the form values to the result page
+button.addEventListener("click", function () {
+  goTo("result_fare_enquiry.html", {
+    train: getVal("fa-train-number"),
+    from: getCode("fa-source-station"),
+    to: getCode("fa-destination-station"),
+    date: getVal("fa-journey-date"),
+    class: getVal("fa-train-class"),
+    quota: getVal("fa-train-quota"),
+    passengerType: getVal("fa-passenger-type"),
+  });
+});
