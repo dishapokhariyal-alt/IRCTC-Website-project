@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   if (!authNav) return;
 
-  const API_BASE = "http://localhost:3000";
-
+  
   try {
     const response = await fetch(API_BASE + "/api/auth/me", {
       method: "GET",
